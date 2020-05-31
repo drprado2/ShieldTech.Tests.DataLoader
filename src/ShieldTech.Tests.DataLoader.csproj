@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>ShieldTech.Tests.DataLoader</Title>
+    <Authors>Adriano P. Oliveira</Authors>
+    <Description>Project that contains class to generate data for testes</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/drprado2/ShieldTech.Tests.DataLoader</PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/drprado2/ShieldTech.Tests.DataLoader</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>tests</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
